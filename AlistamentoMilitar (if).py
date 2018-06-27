@@ -7,4 +7,4 @@ if idade < 18:
 elif idade == 18:
     print('Chegou a hora de você se alistar!')
 else:
-    print('Já passou da hora, você deveria ter se apresentado há {idade-18} anos')
+    print(f'Já passou da hora, você deveria ter se apresentado há {idade-18} anos')
