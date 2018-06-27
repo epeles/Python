@@ -3,8 +3,8 @@ anonasc = int(input('Ano de nascimento: '))
 anoatual = datetime.now().year
 idade = anoatual - anonasc
 if idade < 18:
-    print('Você ainda tem {} anos para se alistar'.format(18-idade))
+    print(f'Você ainda tem {18-idade} anos para se alistar')
 elif idade == 18:
     print('Chegou a hora de você se alistar!')
 else:
-    print('Já passou da hora, você deveria ter se apresentado há {} anos'.format(idade-18))
+    print('Já passou da hora, você deveria ter se apresentado há {idade-18} anos')
