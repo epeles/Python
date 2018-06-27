@@ -6,4 +6,4 @@ porcent = salario * 0.3
 if prestacao > porcent:
     print('Seu empréstimo foi negado (Excedeu 30% do seu salário)!')
 else:
-    print(f'Seu empréstimo foi aprovado! Serão pagos R$ {prestacao:.2f} em {anos*12} meses)
+    print(f'Seu empréstimo foi aprovado! Serão pagos R$ {prestacao:.2f} em {anos*12} meses')
