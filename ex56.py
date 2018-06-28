@@ -1,11 +1,5 @@
-nomejovem = 0
-nomevelho = 0
-maior = 0
-menor = 1000
-maisnova = 1000
-soma = 0
-jovem = 0
-id = 0
+id = jovem = soma = nomejovem = nomevelho = maior = 0
+maisnova = menor = 1000
 qtde = int(input('Qts pessoas vc deseja comparar? '))
 for c in range(1, qtde+1):
     nome = str(input(f'Digite o nome da {c}a pessoa: ')).capitalize()
