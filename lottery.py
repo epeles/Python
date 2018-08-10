@@ -19,5 +19,6 @@ def lottery(qtty):
     for pos, number in enumerate(games):
         print(f'Ticket {pos+1}: {number}')
         sleep(1)
+    print('=-'*5, 'GOOD LUCK', '=-'*5)    
 
 lottery(5)
